@@ -1,0 +1,325 @@
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+
+/************************* HOME***********************/
+
+.hero {
+    background-image: url(./flo.jpg);
+    opacity: 0.9;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100vh;
+    color: rgb(228, 78, 148);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 70pt;
+    font-weight: bolder;
+    margin-bottom: 15px;
+    color: white;
+    font-family: 'Parisienne', cursive;
+}
+
+.hero h3 {
+    font-size: 20pt;
+    margin-bottom: 15px;
+    color: white;
+    font-family: 'Shrikhand', cursive;
+}
+
+
+/********** Sobre MIM ********************/
+
+.bloco {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-shrink: 0 1;
+    padding: 10px;
+    margin-bottom: 45px;
+    font-family: 'Playfair Display', serif;
+}
+
+#sobre {
+    width: 100%;
+    display: flex;
+    flex-shrink: 0 1;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    flex-shrink: 1;
+    color: white;
+    background-color: #222;
+}
+
+section h2 {
+    padding-top: 30px;
+    text-align: center;
+    font-size: 35pt;
+    font-family: 'Domine', serif;
+}
+
+.sobremim {
+    width: 80%;
+    padding: 10px;
+    font-size: 15pt;
+    flex-shrink: 1;
+    text-align: justify;
+    font-family: 'Playfair Display', serif;
+    flex-shrink: 1;
+}
+
+.sobremim p {
+    padding: 20px;
+}
+
+section#sobre {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+/**************** O que é ********************************/
+
+.oque {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-shrink: 1;
+}
+
+.textoque {
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 1;
+    margin-left: 10px;
+    font-size: 15pt;
+    text-align: justify;
+    padding: 20px;
+    width: 60%;
+    font-family: 'Playfair Display', serif;
+}
+
+.textoque h2 {
+    font-size: 20pt;
+    font-weight: bolder;
+}
+
+.imgoque {
+    display: flex;
+    flex-shrink: 1;
+}
+
+.imgoque img {
+    width: 300px;
+    height: 280px;
+}
+
+
+/********************* MISSAO, VISAO, VALORES **********************/
+
+section#valores {
+    padding-top: 100px;
+    background-color: #222;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-shrink: 1;
+    justify-content: space-around;
+    padding-bottom: 60px;
+}
+
+.valores {
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 1;
+    margin-left: 15px;
+    width: 30%;
+}
+
+.img_valores {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 1;
+}
+
+.img_valores img {
+    width: 80px;
+    height: 80px;
+}
+
+.text_valores {
+    position: relative;
+    width: 100%;
+    padding: 10px;
+    font-size: 13pt;
+    color: white;
+}
+
+.text_valores h3 {
+    text-align: center;
+    font-weight: bold;
+}
+
+
+/*********************** Serviços *********************************/
+
+section#ns {
+    width: 100%;
+}
+
+section#ns h2 {
+    text-align: center;
+}
+
+.service {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.boxservice {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.textservice {
+    text-align: center;
+    font-size: 15pt;
+    font-weight: bold;
+}
+
+
+/******************* Contato ********************/
+
+section#contato {
+    max-width: 100%;
+    padding: 20px;
+    color: white;
+    background-color: rgb(8, 8, 8);
+}
+
+.boxcontato {
+    background-color: rgb(8, 8, 8);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    padding: 10px;
+    flex-shrink: 1;
+}
+
+.boxcontato form {
+    font-size: 13pt;
+    color: white;
+    font-weight: 900;
+    background-color: rgb(8, 8, 8);
+    width: 80%;
+    padding: 20px;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    border: 3px solid white;
+    border-radius: 20px;
+}
+
+.boxcontato form h3 {
+    font-size: 15pt;
+    color: white;
+    font-weight: 900;
+    text-align: center;
+}
+
+.boxcontato form input[type=text] {
+    background-color: #222;
+    border: 3px solid white;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+form input[type=text]:hover {
+    border: 3px solid rgb(71, 241, 4);
+}
+
+.boxcontato form textarea {
+    background-color: #222;
+    border: 3px solid white;
+    border-radius: 20px;
+    padding: 5px;
+    text-align: justify;
+}
+
+form textarea:hover {
+    border: 3px solid rgb(71, 241, 4);
+}
+
+
+/******* RODAPE *********************/
+
+.rodape__linha1 {
+    background-color: rgb(65, 65, 65);
+    color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    font-size: 13pt;
+    font-weight: 400;
+    font-family: 'Playfair Display', serif;
+}
+
+.rodape__linha1 ul li {
+    list-style: none;
+    margin-top: 15px;
+    text-align: left;
+}
+
+.rodape__linha1 ul li a {
+    color: white;
+}
+
+.rodape__linha1 ul li img {
+    width: 30px;
+    height: 30px;
+}
+
+.rodape__linha1 h2 {
+    text-align: left;
+    font-size: 18pt;
+    text-indent: 20px;
+    font-weight: bolder;
+}
+
+.rodape__linha1 div {
+    width: 33%;
+    padding: 10px;
+    margin-left: 3px;
+    flex-direction: row;
+    flex-shrink: 1;
+    text-align: left;
+}
+
+.rodape__linha2 {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
