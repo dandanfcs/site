@@ -38,44 +38,50 @@ function Prev() {
 
 
 function reiki() {
-    document.getElementById('img').src = './flor.png';
+    document.getElementById('img').src = './web.png';
 
 
     let text = document.getElementById('l2');
 
-    text.innerHTML = `<h2>Reiki</h2><br>
-    <p> O método Reiki é um sistema natural de harmonização e reposição energética que mantém ou recupera a saúde,atuando nas desordens física e mental. Esse método foi desenvolvido no Japão pelo Mestre Mikao Usui. Com ele você pode se proteger energeticamente, aplicar a energia em plantas, em si mesmo, outras pessoas, animais, alimentos, objetos, proteger qualquer ambiente, contribui com o processo de autoconhecimento.
-   </p> `;
+    text.innerHTML = ` <h2>Desevolvimento-Web</h2>
+    <P>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi iure nisi porro rem possimus, voluptatem quisquam at recusandae molestiae minima enim doloribus numquam, fuga temporibus sed reiciendis obcaecati, labore praesentium.
+
+    </P>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, explicabo iure sed dolores facere accusantium deserunt. Odio delectus fuga laboriosam provident! Facilis unde facere aliquam quidem aperiam soluta velit placeat.</p>
+</div> `;
 
 
 }
 
 function cromo() {
-    document.getElementById('img').src = './flor.png';
+    document.getElementById('img').src = './mobiles.png';
 
     let text = document.getElementById('l2');
 
-    text.innerHTML = `<h2>Cromoterapia</h2><br> 
-    <p>A cromoterapia, por intermédio das cores, procura estabelecer e restaurar o equilíbrio físico e energético, promovendo a harmonia entre corpo, mente e emoções, pois o desvio da energia vibratória do corpo é responsável por desencadear patologias. Pode ser trabalhada de diferentes formas: por contato, por visualização, com auxílio de instrumentos, com cabines de luz, com luz polarizada, por meditação.
+    text.innerHTML = ` <h2>Desevolvimento Mobile</h2>
+    <P>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi iure nisi porro rem possimus, voluptatem quisquam at recusandae molestiae minima enim doloribus numquam, fuga temporibus sed reiciendis obcaecati, labore praesentium.
 
-    <br>Reconhecida pela OMS (Organização Mundial de Saúde), uma terapia que pode ser aplicada junto com o Reiki.<br>
-
-    A sessão tem duração de 60 minutos, desde a anamnese até a aplicação das cores.</p>`;
+    </P>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, explicabo iure sed dolores facere accusantium deserunt. Odio delectus fuga laboriosam provident! Facilis unde facere aliquam quidem aperiam soluta velit placeat.</p>
+`;
 
 
 }
 
 function massagem() {
-    document.getElementById('img').src = './flor.png';
+    document.getElementById('img').src = './comerces.png';
 
 
     let text = document.getElementById('l2');
 
-    text.innerHTML = `<h2>Massagem Relaxante</h2><br>
-    <p> Usando-se de movimentos firmes e  leves, a massagem relaxante é uma excelente alternativa para o tratamento de dores musculares, auxilia na circulação energética e sanguínea. Geralmente causadas por estresse, problemas de postura ou movimentos repetitivos, esses hábitos são prejudiciais, resultando em diferentes doenças. Dessa maneira, ela é uma ferramenta que promove o bem-estar, aliviando o desconforto das regiões mais afetadas. <br>
+    text.innerHTML = `<h2>Comércio Eletrônico</h2>
+    <P>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi iure nisi porro rem possimus, voluptatem quisquam at recusandae molestiae minima enim doloribus numquam, fuga temporibus sed reiciendis obcaecati, labore praesentium.
 
-    Tem duração de 50 minutos, podendo ser feito semanalmente, quinzenalmente ou mensalmente. Somente para mulheres.
-    </p> `;
+    </P>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, explicabo iure sed dolores facere accusantium deserunt. Odio delectus fuga laboriosam provident! Facilis unde facere aliquam quidem aperiam soluta velit placeat.</p> `;
 
 
 }

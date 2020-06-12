@@ -14,7 +14,6 @@
     background-size: cover;
     background-attachment: fixed;
     min-height: 100vh;
-    color: rgb(228, 78, 148);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -23,18 +22,17 @@
 }
 
 .hero h1 {
-    font-size: 70pt;
+    font-size: 50pt;
     font-weight: bolder;
     margin-bottom: 15px;
     color: white;
-    font-family: 'Parisienne', cursive;
+    font-family: 'Shrikhand', cursive;
 }
 
 .hero h3 {
     font-size: 20pt;
     margin-bottom: 15px;
-    color: white;
-    font-family: 'Shrikhand', cursive;
+    color: rgb(243, 237, 237);
 }
 
 
@@ -43,12 +41,14 @@
 .bloco {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
+    justify-content: left;
+    align-items: left;
+    margin-left: 20px;
     flex-shrink: 0 1;
     padding: 10px;
     margin-bottom: 45px;
     font-family: 'Playfair Display', serif;
+    width: 80%;
 }
 
 #sobre {
@@ -61,6 +61,7 @@
     flex-shrink: 1;
     color: white;
     background-color: #222;
+    padding-top: 50px;
 }
 
 section h2 {
@@ -71,11 +72,11 @@ section h2 {
 }
 
 .sobremim {
-    width: 80%;
+    width: 100%;
     padding: 10px;
     font-size: 15pt;
     flex-shrink: 1;
-    text-align: justify;
+    text-align: center;
     font-family: 'Playfair Display', serif;
     flex-shrink: 1;
 }
@@ -173,6 +174,7 @@ section#valores {
 .text_valores h3 {
     text-align: center;
     font-weight: bold;
+    font-family: 'Playfair Display', serif;
 }
 
 
@@ -187,24 +189,82 @@ section#ns h2 {
 }
 
 .service {
+    padding-top: 80px;
     display: flex;
     flex-direction: row;
+    flex-shrink: 1;
     justify-content: space-around;
     flex-wrap: wrap;
 }
 
 .boxservice {
-    width: 30%;
+
+   flex-basis: 30%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    flex-shrink: 1;
 }
 
 .textservice {
     text-align: center;
-    font-size: 15pt;
-    font-weight: bold;
+    font-size: 12pt;
+    font-family: 'Playfair Display', serif;
+}
+
+.textservice p {
+    text-align: justify;
+}
+
+
+/************************************ SEÇÃO DE COMENTARIOS ******************************************/
+
+section#comentario {
+    background-color: #222;
+    margin-top: 40px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    color: white;
+}
+
+div#bloco-comentario {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 1;
+}
+
+.foto-comentario {
+    margin-left: 20px;
+}
+
+.text-comentario {
+    text-align: center;
+    padding: 20px;
+}
+
+.text-comentario p {
+    text-align: justify;
+    padding: 20px;
+    font-size: 13pt;
+}
+
+.text-comentario h3 {
+    text-align: left;
+    text-indent: 50px;
+}
+
+.op-comentario {
+    display: flex;
+    justify-content: center;
+}
+
+.op-comentario input[type=radio] {
+    margin: 20px;
+    padding: 10px;
 }
 
 
@@ -255,6 +315,14 @@ section#contato {
     padding: 10px;
 }
 
+.boxcontato form input[type=submit] {
+    background-color: #222;
+    border: 3px solid white;
+    border-radius: 20px;
+    padding: 10px;
+    width: 20%;
+}
+
 form input[type=text]:hover {
     border: 3px solid rgb(71, 241, 4);
 }
@@ -265,6 +333,7 @@ form input[type=text]:hover {
     border-radius: 20px;
     padding: 5px;
     text-align: justify;
+    margin: 20px;
 }
 
 form textarea:hover {
