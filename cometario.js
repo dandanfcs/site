@@ -11,7 +11,7 @@
      let depoimento = document.getElementById('text-comentario');
      document.getElementById('img-coment').src = './c2.png';
 
-     depoimento.innerHTML = "<h3>Ana Luíza </h3><p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem aperiam ab quod harum veniam, fugit enim blanditiis illum quisquam mollitia fugiat magnam officia dicta debitis labore soluta. Quis, doloribus iste!</p>";
+     depoimento.innerHTML = "<h3>Ana Luiza </h3><p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem aperiam ab quod harum veniam, fugit enim blanditiis illum quisquam mollitia fugiat magnam officia dicta debitis labore soluta. Quis, doloribus iste!</p>";
 
 
  }
